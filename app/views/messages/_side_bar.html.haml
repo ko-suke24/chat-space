@@ -1,12 +1,15 @@
 .chat-side
   .side-header
     .side-header__box
-      %p.side-header__box__user-name masa
+      %p.side-header__box__user-name 
+        = current_user.name
       %ul.side-header__box__menu
         %li.side-header__box__menu__new-group
-          %i.fa.fa-edit.fa-sm
+          = link_to do
+            = icon('fas', 'pen-square', class: 'icon')
         %li.side-header__box__menu__edit-user
-          %i.fa.fa-cog.fa-sm
+          = link_to edit_user_path(current_user) do
+            = icon('fas', 'cog', class: 'icon')
   .chat_side_groups
     .group
       %p.group__group-name techcamp
