@@ -1,11 +1,11 @@
 .chat-main {
   height: 100vh;
   width: calc(100vw - 300px);
-  background-color: white;
+  background-color:$white;
   float: right;
 
   &__header {
-    background-color: white;
+    background-color:$white;
     height: 100px;
     width: calc(100vw - 300px);
     display: flex;
@@ -23,7 +23,7 @@
           }
         ul {
           font-size: 12px;
-          color: #999999;
+          color: $gray;
           display: flex;
           list-style: none;
           margin: 0;
@@ -31,7 +31,7 @@
           .member-name {
             text-decoration: none;
             margin-left: 5px;
-            color: #999999;
+            color: $gray;
           }
         }   
       }
@@ -40,11 +40,11 @@
         line-height: 40px;
         padding: 0 20px;
         margin-top: 30px;
-        border: solid 1px #38aef0;
+        border: solid 1px $aqua;
         }
         a {
           text-decoration: none;
-          color: #38aef0;
+          color: $aqua;
         }           
     }
   }
@@ -108,8 +108,8 @@
           }
           .submit-btm {
             width: 100px;
-            background-color: #38aef0;
-            color: white;
+            background-color: $aqua;
+            color:$white;
             font-size: 16px;
             height: 50px;
             margin-left: 15px;
@@ -117,27 +117,3 @@
           }
         }
       }
-
-
-      // &__message {
-        //   border: none;
-        //   float: left;
-        //   height: 50px;
-        //   width: calc(100% - 150px);
-        // }
-        // &__mask {
-        //   background-color: white;
-        //   float: left;
-        //   height: 50px;
-        //   padding-right: 10px;
-        //   &__image {
-        //     font-size: 20px;
-        //     line-height: 50px;
-        //   }
-        //   . {
-        //     display: none;
-        //   }
-        // }
-
-
-      
