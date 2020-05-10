@@ -25,9 +25,15 @@
     }
     &__menu__new-group {
     margin-left: 0.3rem;
+      .icon {
+        color:$white;
+      }
     }
     &__menu__edit-user {
       margin-left: 0.3rem;
+        .icon2 {
+          color:$white;
+        }
     }
   }
 }
@@ -38,17 +44,17 @@
   background-color: #2f3e51;
   padding: 20px 20px 0;
   overflow: scroll;
-  color: #ffffff;
   list-style: none;
 }
 
 .group {
   margin-bottom: 40px;
-  &__group-name {
+  color: white;
+  .group-name {
     font-size: 15px;
     margin-bottom: 5px;
   }
-  &__latest-message {
+  .group-message {
     font-size: 11px;
   }
 } 
