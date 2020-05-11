@@ -48,13 +48,15 @@
 }
 
 .group {
-  margin-bottom: 40px;
-  color: white;
-  .group-name {
+  box-sizing: border-box;
+  padding: 20px 0 40px;
+  &__name {
     font-size: 15px;
     margin-bottom: 5px;
+    color: $white;
   }
-  .group-message {
+  &__message {
     font-size: 11px;
+    color: $white;
   }
 } 
